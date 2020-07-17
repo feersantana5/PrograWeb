@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-ene-2019, 3:57:51
+    Author     : Santana
+*/
+
+
+#main-header {
+    background: #F7512D;
+    color: white;
+    height: 80px;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}	
+
+#main-header a {
+    color: white;
+}
+#logo-header {
+    float: left;
+    padding: 15px 0px 0px 600px;
+    text-decoration: none;
+}
+#logo-header:hover {
+    color: #0b76a6;
+}
+
+#logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+}
+
+input {
+    margin: 0.5em 0em 3em 1em;
+    text-decoration:none;
+    font-weight:600;
+    font-size:20px;
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:gray;
+}
+
+/* Este es el estilo al poner el cursor encima del boton*/
+input:hover {
+    background-color:#000000;
+}
+#encabezado{
+    text-align: center;
+    
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666;
+    background: #f2f2f2; 
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-top: 80px; 
+}
+
+table {
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    background-color: #EEA47D;
+}
+
+
+
+td {
+    padding: 10px;
+}
+
+th {
+    padding: 5px;
+}
+
+a:link {
+    color: #be7429;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:link:hover {
+    color: #be7429;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#resumen{
+    text-align: center;
+    padding-top: 340px;
+    font-size: 1.2em;
+}
+
+#resumen1{
+    text-align: center;
+    padding-top: 470px;
+    font-size: 1.2em;
+}

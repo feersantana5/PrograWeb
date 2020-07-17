@@ -1,0 +1,188 @@
+
+/* 
+    Created on : 04-dic-2018, 0:06:15
+    Author     : Santana
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666;
+    background: #f2f2f2; 
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-top: 80px; 
+}
+
+#main-header {
+    background: #F7512D;
+    color: white;
+    height: 80px;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}	
+
+#main-header a {
+    color: white;
+}
+#logo-header {
+    float: left;
+    padding: 15px 0px 0px 600px;
+    text-decoration: none;
+}
+#logo-header:hover {
+    color: #0b76a6;
+}
+
+#logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+}
+
+input {
+    margin: 0.5em 0em 3em 1em;
+    text-decoration:none;
+    font-weight:600;
+    font-size:20px;
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:gray;
+}
+
+/* Este es el estilo al poner el cursor encima del boton*/
+input:hover {
+    background-color:#000000;
+}
+
+/* jsp redirigido*/
+#encabezado{
+    text-align: center;
+}
+
+#descripcion{
+    text-align: center;
+}
+
+#form{
+    text-align: center;
+
+}
+
+/* lista opciones*/
+
+
+/* Select style here */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #666;
+    background-image: none;
+}
+
+/* Custom Select */
+.cent{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.select {
+    position: relative;
+    display: block;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+}
+select {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #fff;
+    cursor: pointer;
+}
+select::-ms-expand {
+    display: none;
+}
+
+/* Arrow */
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: #34495e;
+    pointer-events: none;
+}
+
+/* Transition */
+.select:hover::after {
+    color: #f39c12;
+}
+.select::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
+
+
+
+/* tabla */
+
+
+
+table {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 350px;
+    padding: 10px;
+    border-color: graytext;
+    border-width: 10px;
+    background-color: #EEA47D;
+}
+
+th {
+    text-align: left;
+    border-bottom: 1px solid;
+}
+
+td {
+    padding: 10px;
+}
+
+a:link {
+    color: #be7429;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:link:hover {
+    color: #be7429;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
